@@ -23,6 +23,7 @@ public class PantallaInicial extends JFrame{
 	ArrayList<Alumno> lista = new ArrayList<>();
 	JTable table2, table, table3, table4;
 	public void crearComponentes() {
+		
 		getContentPane().setLayout(new BorderLayout());
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setTitle("ALTAS, BAJAS, CAMBIOS Y CONSULTAS");
